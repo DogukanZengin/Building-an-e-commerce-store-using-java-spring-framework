@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mywebsite</groupId>
-    <artifactId>emusicstore</artifactId>
+    <groupId>com.tr.nulltee</groupId>
+    <artifactId>nullteeshop</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
@@ -116,4 +116,14 @@
             <version>2.3.3.RELEASE</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>9.4.0.RC0</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>
