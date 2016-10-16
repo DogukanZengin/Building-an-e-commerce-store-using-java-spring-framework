@@ -2,10 +2,10 @@
   <artifact type="exploded-war" name="Building-an-e-commerce-store-using-java-spring-framework:war exploded">
     <output-path>$PROJECT_DIR$/src/main/webapp</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="Building-an-e-commerce-store-using-java-spring-framework/web/Web" />
+      <element id="javaee-facet-resources" facet="NullTeeShop/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="Building-an-e-commerce-store-using-java-spring-framework" />
+          <element id="module-output" name="NullTeeShop" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
