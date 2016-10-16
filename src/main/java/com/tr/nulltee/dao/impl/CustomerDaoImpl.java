@@ -1,10 +1,10 @@
 package com.tr.nulltee.dao.impl;
 
 import com.tr.nulltee.dao.CustomerDao;
-import com.tr.nulltee.model.Authorities;
+import com.tr.nulltee.model.Authority;
 import com.tr.nulltee.model.Cart;
 import com.tr.nulltee.model.Customer;
-import com.tr.nulltee.model.Users;
+import com.tr.nulltee.model.User;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -31,13 +31,13 @@ public class CustomerDaoImpl implements CustomerDao {
         session.saveOrUpdate(customer.getBillingAddress());
         session.saveOrUpdate(customer.getShippingAddress());
 
-        Users newUser = new Users();
+        User newUser = new User();
         newUser.setUsername(customer.getUsername());
         newUser.setPassword(customer.getPassword());
         newUser.setEnabled(true);
         newUser.setCustomerId(customer.getCutomerId());
 
-        Authorities newAuthorities = new Authorities();
+        Authority newAuthorities = new Authority();
         newAuthorities.setUsername(customer.getUsername());
         newAuthorities.setAuthority("ROLE_USER");
 

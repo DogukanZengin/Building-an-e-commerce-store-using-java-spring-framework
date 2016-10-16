@@ -1,9 +1,14 @@
 package com.tr.nulltee.model;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
+@Getter
+@Setter
 public class CustomerOrder implements Serializable{
 
 
