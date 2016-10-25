@@ -48,7 +48,7 @@ public class CartResources {
         List<CartItem> cartItems = cart.getCartItems();
 
         for (int i=0; i < cartItems.size(); i++){
-            if(product.getProductId() == cartItems.get(i).getProduct().getProductId()){
+            if(product.getId() == cartItems.get(i).getProduct().getId()){
                 CartItem cartItem = cartItems.get(i);
                 cartItem.setQuantity(cartItem.getQuantity() + 1);
                 cartItem.setTotalPrice(product.getProductPrice()*cartItem.getQuantity());

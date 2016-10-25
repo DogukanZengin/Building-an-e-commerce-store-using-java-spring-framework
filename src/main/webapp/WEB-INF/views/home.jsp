@@ -12,29 +12,23 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img class="first-slide home-image" src="<c:url value="/resources/images/back1.jpg" />" alt="First slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>Welcome to Le's Music Store</h1>
-                            <p>Here you can browse and buy Instruments. Records and music related Accessories. Order How for Your Amazing New Kit!</p>
+                            <h1>Null Evolution T-shirts</h1>
                         </div>
                     </div>
                 </div>
                 <div class="item">
-                    <img class="second-slide home-image" src="<c:url value="/resources/images/back2.jpg" />" alt="Second slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>Facts You Should know About Music</h1>
-                            <p>Music brings jey, to all of our hearts. It's one of those, emotional arts.</p>
+                            <h1>Null Evolution T-shirts</h1>
                         </div>
                     </div>
                 </div>
                 <div class="item">
-                    <img class="third-slide home-image " src="<c:url value="/resources/images/back3.jpg" />" alt="Third slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>It's A Jazz Affair</h1>
-                            <p>Through ups and downs, Somehow I manage to survive in life.</p>
+                            <h1>Null Evolution T-shirts</h1>
                         </div>
                     </div>
                 </div>
