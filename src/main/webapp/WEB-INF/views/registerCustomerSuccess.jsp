@@ -6,13 +6,13 @@
         <section>
             <div class="jumbotron">
                 <div class="container">
-                    <h1>Customer registered successfully!</h1>
+                    <h1>Kullanıcı Kaydı oluşturuldu!</h1>
                 </div>
             </div>
         </section>
 
         <section class="container">
-            <p><a href="<spring:url value="/product/productList" />" class="btn btn-default">Products</a></p>
+            <p><a href="<spring:url value="/product/productList" />" class="btn btn-default">Ürünlerimiz</a></p>
         </section>
 
 <%@ include file="/WEB-INF/views/template/footer.jsp" %>

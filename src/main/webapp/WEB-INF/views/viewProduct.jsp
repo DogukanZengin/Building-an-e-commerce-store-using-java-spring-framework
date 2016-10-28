@@ -6,10 +6,10 @@
 <div class="container-wrapper">
     <div class="container">
         <div class="page-header">
-            <h1>Product Detail</h1>
+            <h1>Ürün Sayfası</h1>
 
 
-            <p class="lead">Here is the detail information of the product:</p>
+            <p class="lead">Tasarlanacak</p>
         </div>
 
         <div class="container" ng-app = "cartApp">
@@ -20,10 +20,8 @@
                 <div class="col-md-5">
                     <h3>${product.productName}</h3>
                     <p>${product.productDescription}</p>
-                    <p><strong>Manufacturer</strong>: ${product.productManufacturer}</p>
-                    <p><strong>Category</strong>: ${product.productCategory}</p>
-                    <p><strong>Condition</strong>: ${product.productCondition}</p>
-                    <p>${product.productPrice} USD</p>
+                    <p><strong>Kategori</strong>: ${product.productCategory}</p>
+                    <p>${product.productPrice} TL</p>
 
                     <br/>
 
@@ -35,8 +33,8 @@
 
                     <p ng-controller="cartCtrl">
                         <a href="<c:url value = "${url}" />" class="btn btn-default">Back</a>
-                        <a href="#" class="btn btn-warning btn-large" ng-click="addToCart('${product.productId}')"><span class="glyphicon glyphicon-shopping-cart"></span> Order Now</a>
-                        <a href="<spring:url value="/cart" />" class="btn btn-default"><span class="glyphicon glyphicon-hand-right"></span> View Cart</a>
+                        <a href="#" class="btn btn-warning btn-large" ng-click="addToCart('${product.productId}')"><span class="glyphicon glyphicon-shopping-cart"></span> Sepete ekle</a>
+                        <a href="<spring:url value="/cart" />" class="btn btn-default"><span class="glyphicon glyphicon-hand-right"></span> Sepeti görüntüle</a>
                     </p>
 
                 </div>

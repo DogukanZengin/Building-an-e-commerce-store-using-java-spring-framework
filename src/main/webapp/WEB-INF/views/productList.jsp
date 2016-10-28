@@ -17,19 +17,19 @@
 <div class="container-wrapper">
     <div class="container">
         <div class="page-header">
-            <h1>All Products</h1>
+            <h1>Bütün ürünler</h1>
 
-            <p class="lead">Checkout all the awesome products available now!</p>
+            <p class="lead">Tasarlanacak</p>
         </div>
 
         <table class="table table-striped table-hover">
             <thead>
                 <tr class="bg-success">
-                    <th>Proto Thumb</th>
-                    <th>Product Name</th>
-                    <th>Category</th>
-                    <th>Condition</th>
-                    <th>Price</th>
+                    <th>Foto</th>
+                    <th>Ürün adı</th>
+                    <th>Kategori</th>
+                    <th>Öne çıkar</th>
+                    <th>Fiyat</th>
                     <th></th>
                 </tr>
             </thead>

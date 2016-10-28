@@ -15,19 +15,19 @@
 <div class="container-wrapper">
     <div class="container">
         <div class="page-header">
-            <h1>Product Inventory Page</h1>
+            <h1>Ürün Envanteri</h1>
 
 
-            <p class="lead">This is the product inventory page:</p>
+            <p class="lead">Ürün envanter sayfası tasarlanacak</p>
 
         <table class="table table-striped table-hover">
             <thead>
             <tr class="bg-success">
-                <th>Proto Thumb</th>
-                <th>Product Name</th>
-                <th>Category</th>
-                <th>Condition</th>
-                <th>Price</th>
+                <th>Foto</th>
+                <th>Ürün adı</th>
+                <th>Kategori</th>
+                <th>Öne çıkar</th>
+                <th>Fiyat</th>
                 <th></th>
             </tr>
             </thead>
@@ -47,6 +47,6 @@
             </c:forEach>
         </table>
 
-        <a href="<spring:url value="/admin/product/addProduct" />" class="btn btn-primary">Add Product</a>
+        <a href="<spring:url value="/admin/product/addProduct" />" class="btn btn-primary">Ürün ekle</a>
 
 <%@ include file="/WEB-INF/views/template/footer.jsp" %>

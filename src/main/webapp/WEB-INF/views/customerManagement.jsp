@@ -5,19 +5,17 @@
 <div class="container-wrapper">
     <div class="container">
         <div class="page-header">
-            <h1>Customer Management Page</h1>
-
-            <p class="lead">This is the customer management page!</p>
+            <h1>Müşteri yönetimi sayfası</h1>
         </div>
 
         <table class="table table-striped table-hover">
             <thead>
             <tr class="bg-success">
-                <th>Name</th>
+                <th>İsim</th>
                 <th>Email</th>
-                <th>Phone</th>
-                <th>Username</th>
-                <th>Enabled</th>
+                <th>Telefon</th>
+                <th>Kullanıcı Adı</th>
+                <th>Aktif</th>
             </tr>
             </thead>
             <c:forEach items="${customerList}" var="customer">
