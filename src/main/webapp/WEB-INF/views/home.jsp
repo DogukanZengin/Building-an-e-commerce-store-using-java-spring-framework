@@ -52,36 +52,23 @@
 
             <!-- Three columns of text below the carousel -->
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-6 content-centered">
                     <a class="btn btn-default" href="<c:url value="/product/productList?searchCondition=Instrument" />" role="button">
-                        <img class="img-circle" src="<c:url value="/resources/images/instrument.jpg"/>" alt="Instrument Image" width="140" height="140">
+                        <img class="img-circle" src="<c:url value="/resources/images/IMG_1536.JPG"/>" width="140" height="140">
                     </a>
 
-                    <h2>Instrument:</h2>
-                    <p>Well crafted and delicate instruments</p>
+                    <h2>Kadýn</h2>
 
                 </div>
 
 
 
-                <div class="col-lg-4">
+                <div class="col-lg-6 content-centered">
                     <a class="btn btn-default" href="<c:url value="/product/productList?searchCondition=Record" />" role="button">
-                        <img class="img-circle" src="<c:url value="/resources/images/record.gif"/>" alt="Instrument Image" width="140" height="140">
+                        <img class="img-circle" src="<c:url value="/resources/images/IMG_1539.JPG"/>" width="140" height="140">
                     </a>
 
-                    <h2>Discography:</h2>
-                    <p>An exceptional collections of music records in favor of the traditional and modern genre of jazz </p>
-
-                </div>
-
-
-                <div class="col-lg-4">
-                    <a class="btn btn-default" href="<c:url value="/product/productList?searchCondition=Accessory" />" role="button">
-                        <img class="img-circle" src="<c:url value="/resources/images/accessory.jpg"/>" alt="Instrument Image" width="140" height="140">
-                    </a>
-
-                    <h2>Accessories:</h2>
-                    <p>All musical and related geeky goods</p>
+                    <h2>Erkek</h2>
 
                 </div>
             </div>
