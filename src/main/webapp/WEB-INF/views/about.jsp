@@ -7,7 +7,4 @@
             <h1>Hakkımızda</h1>
         </div>
 
-        <img src="<c:url value="/resources/images/showroom.jpg" />" alt="showroom" >
-
-
 <%@ include file="/WEB-INF/views/template/footer.jsp" %>
