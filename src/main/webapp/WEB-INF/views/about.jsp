@@ -1,5 +1,5 @@
 <%@ include file="/WEB-INF/views/template/header.jsp" %>
-
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <div class="container-wrapper">
     <div class="container">
 

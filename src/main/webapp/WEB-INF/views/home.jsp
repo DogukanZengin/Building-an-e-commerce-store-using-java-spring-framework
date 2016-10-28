@@ -1,6 +1,6 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ include file="/WEB-INF/views/template/header.jsp" %>
-
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
         <!-- Carousel
         ================================================== -->
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -57,7 +57,7 @@
                         <img class="img-circle" src="<c:url value="/resources/images/IMG_1536.JPG"/>" width="140" height="140">
                     </a>
 
-                    <h2>Kadýn</h2>
+                    <h2>KadÄ±n</h2>
 
                 </div>
 

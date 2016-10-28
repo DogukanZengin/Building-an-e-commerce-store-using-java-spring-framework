@@ -1,5 +1,5 @@
 <%@ include file="/WEB-INF/views/template/header.jsp" %>
-
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <div class="container-wrapper">
     <div class="container">
         <div id="login-box">
@@ -24,7 +24,7 @@
                     <label for="password">Şifre:</label>
                     <input type="password" id="password" name="password" class="form-control" />
                 </div>
-                <input type="submit" value="Submit" class="btn btn-default">
+                <input type="submit" value="Giriş yap" class="btn btn-default">
                 <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
             </form>
         </div>

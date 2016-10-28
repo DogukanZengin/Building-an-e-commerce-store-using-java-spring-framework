@@ -1,9 +1,9 @@
-
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!-- FOOTER -->
 <footer>
     <br/>
-    <p class="pull-right"><a href="#">Yukarý çýk</a></p>
-    <p>&copy; 2016 Null Tee Company, Inc. &middot; <a href="#">Gizlilik</a> &middot; <a href="#">Koþullar</a></p>
+    <p class="pull-right"><a href="#">YukarÄ± Ã§Ä±k</a></p>
+    <p>&copy; 2016 Null Tee Company, Inc. &middot; <a href="#">Gizlilik</a> &middot; <a href="#">KoÅŸullar</a></p>
 </footer>
 </div>
 
