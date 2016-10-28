@@ -15,7 +15,7 @@
         <div class="container" ng-app = "cartApp">
             <div class="row">
                 <div class="col-md-5">
-                    <img src="<c:url value="/resources/images/${product.productId}.png" />" alt="image" style="width:100%"/>
+                    <img src="<c:url value="/resources/images/${product.id}.png" />" alt="image" style="width:100%"/>
                 </div>
                 <div class="col-md-5">
                     <h3>${product.productName}</h3>
@@ -33,8 +33,8 @@
 
                     <p ng-controller="cartCtrl">
                         <a href="<c:url value = "${url}" />" class="btn btn-default">Back</a>
-                        <a href="#" class="btn btn-warning btn-large" ng-click="addToCart('${product.productId}')"><span class="glyphicon glyphicon-shopping-cart"></span> Sepete ekle</a>
-                        <a href="<spring:url value="/cart" />" class="btn btn-default"><span class="glyphicon glyphicon-hand-right"></span> Sepeti görüntüle</a>
+                        <a href="#" class="btn btn-warning btn-large" ng-click="addToCart('${product.id}')"><span class="glyphicon glyphicon-shopping-cart"></span> Sepete ekle</a>
+                        <a href="<spring:url value="customer/cart" />" class="btn btn-default"><span class="glyphicon glyphicon-hand-right"></span> Sepeti görüntüle</a>
                     </p>
 
                 </div>

@@ -20,7 +20,7 @@
 
             <div class="form-group">
                 <label for="category">Kategori</label>
-                <label class="checkbox-inline"><form:radiobutton path="productCategory" id="category" value="instrument" />Tshirt</label>
+                <label class="checkbox-inline"><form:radiobutton path="productCategory" id="category" value="tshirt" />Tshirt</label>
             </div>
 
             <div class="form-group">

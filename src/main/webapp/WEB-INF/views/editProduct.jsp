@@ -12,7 +12,7 @@
         <form:form action="${pageContext.request.contextPath}/admin/product/editProduct"
                    method="post" commandName="product" enctype="multipart/form-data">
 
-         <form:hidden path="productId" value="${product.productId}" />
+         <form:hidden path="productId" value="${product.id}" />
 
             <div class="form-group">
                 <label for="name">İsim</label>
