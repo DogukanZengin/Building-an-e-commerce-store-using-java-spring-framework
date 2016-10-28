@@ -37,48 +37,14 @@
 ================================================== -->
 <body>
 <div class="navbar-wrapper">
-    <div class="container">
-
-        <nav class="navbar navbar-inverse navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Null Evolution</a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="<c:url value="/" />">Ana Sayfa</a></li>
-                        <li><a href="<c:url value="/product/productList/all" />">Katalog</a></li>
-                        <li><a href="<c:url value="/about" />">Hakkımızda</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav pull-right">
-                        <c:if test="${pageContext.request.userPrincipal.name != null}">
-                            <li><a>Welcome: ${pageContext.request.userPrincipal.name}</a></li>
-                            <li><a href="<c:url value="/j_spring_security_logout" />">Çıkış Yap</a></li>
-
-                            <c:if test="${pageContext.request.userPrincipal.name != 'admin'}">
-                                <li><a href="<c:url value="/customer/cart" />">Sepetim</a></li>
-                            </c:if>
-
-                            <c:if test="${pageContext.request.userPrincipal.name == 'admin'}">
-                                <li><a href="<c:url value="/admin" />">Admin</a></li>
-                            </c:if>
-
-                        </c:if>
-
-                        <c:if test="${pageContext.request.userPrincipal.name == null}">
-                            <li><a href="<c:url value="/login" />">Giriş Yap</a></li>
-                            <li><a href="<c:url value="/register" />">Üye ol</a></li>
-                        </c:if>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
+    <div class="container_null">
+            <ul>
+                <li class="menu-item"><a href="<c:url value="/" />"><img src="<c:url value="/resources/images/erkek_menu.png"/>"></a></li>
+                <li class="menu-item"><a href="<c:url value="/product/productList/all" />"><img src="<c:url value="/resources/images/kadin_menu.png"/>"></a></li>
+            </ul>
+             <ul>
+                 <li class="menu-item"><a href="<c:url value="/" />"><img src="<c:url value="/resources/images/blog_menu.png"/>"></a></li>
+                 <li class="menu-item"><a href="<c:url value="/product/productList/all" />"><img src="<c:url value="/resources/images/info_menu.png"/>"></a></li>
+            </ul>
     </div>
 </div>
