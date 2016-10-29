@@ -40,7 +40,7 @@
         </div>
 
         <div class="container marketing">
-            <div class="row">
+            <div class="row" style="margin-bottom: 20px;">
                 <div class="col-lg-12 text-center">
                     <span class="new-product-stamp"></span>
                 </div>
@@ -48,17 +48,17 @@
             <div class="row">
                 <div class="col-lg-4 text-center">
                     <div class="productContainer">
-                        <img src="../resources/images/MARLEYYY.png" style="width: 90%;">
+                        <img src="../resources/images/MARLEYYY.png">
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="productContainer" style="margin-left: 12px;">
+                        <img src="../resources/images/CONTROL.png">
                     </div>
                 </div>
                 <div class="col-lg-4 text-center">
                     <div class="productContainer">
-                        <img src="../resources/images/CONTROL.png" style="width: 90%;">
-                    </div>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <div class="productContainer">
-                        <img src="../resources/images/LOVE.png" style="width: 90%;">
+                        <img src="../resources/images/LOVE.png">
                     </div>
                 </div>
             </div>

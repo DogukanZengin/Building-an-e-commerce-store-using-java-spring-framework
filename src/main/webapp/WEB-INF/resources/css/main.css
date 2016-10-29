@@ -90,8 +90,8 @@ body{
     font-size: 1.7em;
     color: #c9cbc8;
     display: block;
-    width: 140px;
-    height: 97px;
+    width: 287px;
+    height: 116px;
     padding-top: 12px;
     opacity: 0.8;
 }
@@ -101,12 +101,7 @@ body{
 }
 .right-header-menu  .menu-item-text{
     padding-left: 23px;
-    background: url('../images/sag_menu.png');
-}
-
-.right-header-menu  .menu-item-text:hover{
-    background: url('../images/sag_menu2.png');
-    padding-top: 4px;
+    background: url('../images/aski.png');
 }
 
 .left-header-menu{
@@ -114,20 +109,14 @@ body{
 }
 .left-header-menu .menu-item-text{
     padding-left: 56px;
-    background: url('../images/sol_menu.png');
-}
-
-.left-header-menu  .menu-item-text:hover{
-    background: url('../images/sol_menu2.png');
-    padding-top: 4px;
+    background: url('../images/aski.png');
 }
 
 #header-row{
     z-index: 999;
     position: absolute;
     float: left;
-    width: 100%;
-    margin-top: -26px;
+    margin-top: -145px;
 }
 .social-media-item{
     width: 60px;
@@ -140,7 +129,7 @@ body{
 }
 
 .social-media-container{
-    margin-left: 36px;
+    margin-left: 17%;
 }
 
 #facebook{
@@ -155,12 +144,27 @@ body{
     background: url('../images/instagram.png');
 }
 
-.new-product-stamp{
+.new-product-stamp {
     width: 150px;
     height: 150px;
     display: block;
     background: url('../images/damga.png');
-    margin:0 auto;
+    margin: 0 auto;
 }
 
+.productContainer img{
+    transition:all 1s ease-out;
+    transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
+}
+.productContainer img:hover {
+    transform:rotate(-20deg);
+    -webkit-transform:rotate(-20deg);
+}
 
+.rope-menu-base{
+    background: url('../images/halat.png');
+    display: block;
+    width: 151px;
+    height: 647px;
+}

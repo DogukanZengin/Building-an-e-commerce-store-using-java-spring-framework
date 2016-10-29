@@ -53,39 +53,7 @@
             </div>
         </div>
         <div class="row" id="header-row">
-            <ul class="left-header-menu">
-                <li class="menu-item">
-                    <a href="<c:url value="/" />">
-                        <span class="menu-item-text">
-                            <span class="menu-item-text-span">ERKEK</span>
-                        </span>
-                    </a>
-                </li>
-                <li class="menu-item">
-                    <a href="<c:url value="/product/productList/all" />">
-                        <span class="menu-item-text">
-                            <span class="menu-item-text-span">KADIN</span>
-                        </span>
-                    </a>
-                </li>
-            </ul>
-             <ul style="float: right;" class="right-header-menu">
-                 <li class="menu-item">
-                     <a href="<c:url value="/" />">
-                         <span class="menu-item-text">
-                             <span class="menu-item-text-span">MODEL</span>
-                         </span>
-                     </a>
-                 </li>
-                 <li class="menu-item">
-                      <a href="<c:url value="/product/productList/all" />">
-                          <span class="menu-item-text">
-                              <span class="menu-item-text-span">BİLGİ</span>
-                          </span>
-                      </a>
-                     </a>
-                 </li>
-            </ul>
+            <span class="rope-menu-base"></span>
         </div>
     </div>
 </div>
