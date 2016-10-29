@@ -37,37 +37,35 @@
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-        </div><!-- /.carousel -->
-
-
-        <!-- Marketing messaging and featurettes
-        ================================================== -->
-        <!-- Wrap the rest of the page in another container to center all the content. -->
+        </div>
 
         <div class="container marketing">
 
-            <!-- Three columns of text below the carousel -->
             <div class="row">
-                <div class="col-lg-6 text-right">
-                    <a class="btn btn-default" href="<c:url value="/product/productList?searchCondition=Instrument" />" role="button">
-                        <img class="img-circle" src="<c:url value="/resources/images/IMG_1536.JPG"/>" width="140" height="140">
-                    </a>
-
-                    <h2>Kadın</h2>
-
+                <h2 style="text-align: center;">En Yeniler</h2>
+                <div class="col-lg-4 text-center">
+                    <div class="productContainer">
+                        <img src="../resources/images/MARLEYYY.png" style="width: 90%;">
+                    </div>
                 </div>
-
-
-
-                <div class="col-lg-6 text-left">
-                    <a class="btn btn-default" href="<c:url value="/product/productList?searchCondition=Record" />" role="button">
-                        <img class="img-circle" src="<c:url value="/resources/images/IMG_1539.JPG"/>" width="140" height="140">
-                    </a>
-
-                    <h2>Erkek</h2>
-
+                <div class="col-lg-4 text-center">
+                    <div class="productContainer">
+                        <img src="../resources/images/CONTROL.png" style="width: 90%;">
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="productContainer">
+                        <img src="../resources/images/LOVE.png" style="width: 90%;">
+                    </div>
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                        <img src="../resources/images/kargo.png" style="width: 90%;">
+                </div>
+            </div>
+        </div>
 
 
 <%@ include file="/WEB-INF/views/template/footer.jsp" %>

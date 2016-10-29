@@ -16,9 +16,13 @@
 
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="../../resources/js/lettering.js"></script>
+    <script src="../resources/js/jquery.textillate.js"></script>
+    <script src="../resources/js/main.js"></script>
     <script src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
 
-
+    <!-- Bootstrap core CSS -->
+    <link href="<c:url value="/resources/css/animate.css" />" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link href="<c:url value="/resources/css/bootstrap.min.css" />" rel="stylesheet">
 
@@ -38,13 +42,45 @@
 <body>
 <div class="navbar-wrapper">
     <div class="container_null">
-            <ul>
-                <li class="menu-item"><a href="<c:url value="/" />"><img src="<c:url value="/resources/images/erkek_menu.png"/>"></a></li>
-                <li class="menu-item"><a href="<c:url value="/product/productList/all" />"><img src="<c:url value="/resources/images/kadin_menu.png"/>"></a></li>
+        <div class="row">
+            <div class="col-lg-12 text-right">
+                <img src="../resources/images/wood.png" style="width: 20%;margin-right: 30px;width: 17.6%;"/>
+            </div>
+        </div>
+        <div class="row">
+            <ul class="left-header-menu">
+                <li class="menu-item">
+                    <a href="<c:url value="/" />">
+                        <span class="menu-item-text">
+                            <span class="menu-item-text-span">ERKEK</span>
+                        </span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="<c:url value="/product/productList/all" />">
+                        <span class="menu-item-text">
+                            <span class="menu-item-text-span">KADIN</span>
+                        </span>
+                    </a>
+                </li>
             </ul>
-             <ul>
-                 <li class="menu-item"><a href="<c:url value="/" />"><img src="<c:url value="/resources/images/blog_menu.png"/>"></a></li>
-                 <li class="menu-item"><a href="<c:url value="/product/productList/all" />"><img src="<c:url value="/resources/images/info_menu.png"/>"></a></li>
+             <ul style="float: right;" class="right-header-menu">
+                 <li class="menu-item">
+                     <a href="<c:url value="/" />">
+                         <span class="menu-item-text">
+                             <span class="menu-item-text-span">MODEL</span>
+                         </span>
+                     </a>
+                 </li>
+                 <li class="menu-item">
+                      <a href="<c:url value="/product/productList/all" />">
+                          <span class="menu-item-text">
+                              <span class="menu-item-text-span">BİLGİ</span>
+                          </span>
+                      </a>
+                     </a>
+                 </li>
             </ul>
+        </div>
     </div>
 </div>

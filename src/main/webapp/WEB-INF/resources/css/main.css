@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Sony Sketch';
+    src: url('../fonts/Sony_Sketch_EF.ttf');
+}
+
+body{
+    background-size:contain;
+    background: url("../images/concrete.jpg") repeat center;
+}
+
+.navbar-wrapper ul{
+    display: inline-block;
+}
+
 .container-wrapper {
     height:80%;
     margin: auto;
@@ -30,36 +44,35 @@
     white-space: nowrap;
 }
 
+.noDisplay{
+    display: none;
+}
+
 .login-box {
     text-align: center;
 }
 
 .login-container {
     width: 40%;
-    margin: auto;
-    margin-top: 100px;
+    margin: 100px auto auto;
 }
 
 .logo-on-carousel{
     margin: 0 auto;
     position: absolute;
     z-index: 9999;
-    left: 42%;
-}
-
-body{
-    background-size:contain;
-    background: url("../images/concrete.jpg") repeat center;
+    left: 44%;
 }
 
 .sticky {
     position: fixed;
     top: 0;
     z-index: 999;
+    opacity: 0.8;
 }
+
 .menu-item{
     float: left;
-    margin-top: 97px;
     list-style: none;
     width: 50%;
     font-family: "Neuropol Nova";
@@ -68,17 +81,47 @@ body{
     width: 90%;
 }
 
-.navbar-wrapper ul{
-    display: inline-block;
+.menu-item a{
+    text-decoration: none;
 }
 
-@font-face {
-    font-family: 'Neuropol Nova';
-    src: url('Neuropol Nova.ttf');
-
+.menu-item-text{
+    font-family: Sony Sketch;
+    font-size: 1.7em;
+    color: #c9cbc8;
+    display: block;
+    width: 140px;
+    height: 97px;
+    padding-top: 12px;
+    opacity: 0.8;
 }
 
-@font-face {
-    font-family: 'GestaReFogular';
-    src: url('NEUROPOL.ttf');
+.right-header-menu{
+    margin-right: 13%;
 }
+.right-header-menu  .menu-item-text{
+    padding-left: 23px;
+    background: url('../images/sag_menu.png');
+}
+
+.right-header-menu  .menu-item-text:hover{
+    background: url('../images/sag_menu2.png');
+    padding-top: 4px;
+}
+
+.left-header-menu{
+    margin-left: 10%;
+}
+.left-header-menu .menu-item-text{
+    padding-left: 56px;
+    background: url('../images/sol_menu.png');
+}
+
+.left-header-menu  .menu-item-text:hover{
+    background: url('../images/sol_menu2.png');
+    padding-top: 4px;
+}
+
+
+
+
