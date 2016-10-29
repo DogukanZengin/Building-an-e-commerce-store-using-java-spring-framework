@@ -44,10 +44,15 @@
     <div class="container_null">
         <div class="row">
             <div class="col-lg-12 text-right">
-                <img src="../resources/images/wood.png" style="width: 20%;margin-right: 30px;width: 17.6%;"/>
+                <div class="social-media-container">
+                        <span class="social-media-item" id="facebook"></span>
+                        <span class="social-media-item" id="twitter"></span>
+                        <span class="social-media-item" id="instagram"></span>
+                </div>
+                <img src="../resources/images/wood.png" style="width: 32%;margin-right: 30px;"/>
             </div>
         </div>
-        <div class="row">
+        <div class="row" id="header-row">
             <ul class="left-header-menu">
                 <li class="menu-item">
                     <a href="<c:url value="/" />">

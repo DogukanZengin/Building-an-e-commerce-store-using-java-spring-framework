@@ -40,9 +40,12 @@
         </div>
 
         <div class="container marketing">
-
             <div class="row">
-                <h2 style="text-align: center;">En Yeniler</h2>
+                <div class="col-lg-12 text-center">
+                    <span class="new-product-stamp"></span>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-lg-4 text-center">
                     <div class="productContainer">
                         <img src="../resources/images/MARLEYYY.png" style="width: 90%;">
