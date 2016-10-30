@@ -7,10 +7,10 @@ $( document ).ready(function() {
 
     $('.menu-item-text').on('mouseenter', function () { $(this).find('.menu-item-text-span').textillate('start'); });
     $('.rope-menu-base').on('mouseenter', function () {
-        $(this).addClass('rope-menu-base-animate');
+        $(this).removeClass('rope-menu-base-animate');
     });
     $('.rope-menu-base').on('mouseleave', function () {
-        $(this).removeClass('rope-menu-base-animate');
+        $(this).addClass('rope-menu-base-animate');
     });
 
     var fadeStart=100,fadeUntil=300,fading = $('.logo-on-carousel');

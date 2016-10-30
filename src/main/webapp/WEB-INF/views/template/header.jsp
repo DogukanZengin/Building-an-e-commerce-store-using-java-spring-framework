@@ -53,7 +53,7 @@
             </div>
         </div>
         <div class="row" id="header-row">
-            <span class="rope-menu-base"></span>
+            <span class="rope-menu-base rope-menu-base-animate"></span>
         </div>
     </div>
 </div>

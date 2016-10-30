@@ -165,15 +165,14 @@ body{
 .rope-menu-base{
     background: url('../images/halat.png');
     display: block;
-    width: 151px;
-    height: 647px;
-}
+    width: 201px;
+    height: 647px;    -webkit-transform-origin: 50% 0;
 
+}
 .rope-menu-base-animate{
-    -webkit-transform-origin: 50% 0;
     transform-origin: 50% 0;
-    -webkit-animation: swinging 1s ease-in-out;
-    animation: swinging 1s ease-in-out ;
+    -webkit-animation: swinging 2s ease-in-out forwards infinite;
+    animation: swinging 2s ease-in-out forwards infinite;
 }
 
 @-webkit-keyframes swinging{
